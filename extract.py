@@ -10,13 +10,13 @@ pathToArtistNames = "./artists.txt"
 pathToLyrics = './lyrics/'
 lyricsSite = 'https://www.lyrics.com/'
 artistSitePrefix = lyricsSite + 'artist/'
-songLimit = 15
+songLimit = 20
 
 # the expected lyrics.com artist page does not lead to best page for quite a few artists
 urlExceptions = {'Shawn Mendes': '2979091', 'Bastille': '2528804', 'Sam Smith': '2213398', 'The Chainsmokers': '2737962',
                  'James Arthur': '2743882', 'Charlie Puth': '3047262', 'Hailee Steinfeld': '2978221', 'Doja Cat': '3044004',
                  'Alessia Cara': '3098542', 'Niall Horan': '2557379', 'Tori Kelly': '2420321', 'Anne-Marie': '3024696',
-                 'Post Malone': '3128337', 'Twenty One Pilots': '2101949', 'Daya': '1172429', 'Lukas Graham': '2768289'}
+                 'Daya': '1172429', 'Lukas Graham': '2768289'}
 
 # to prevent repeated songs, skip collecting lyrics for songs with these words in title
 skipPhrases = {"made popular by", "extended version", "music video", "album version", "acoustic", "live version", "dvd",

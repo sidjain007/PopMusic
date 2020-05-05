@@ -4,8 +4,9 @@ Analyzing the lyrics of modern pop music and attempting to auto-generate new lyr
 
 1. `$ python3 extract.py`
 
-* Webscrap _lyrics.com_ to collect lyrics on 2000+ songs by 150 trending artists  
-(Expect this to take a couple of hours)  
+* Webscrap _lyrics.com_ to collect lyrics on 2800 songs by 150 trending artists  
+(Takes ~1 hour)  
+* Skip step by setting loadFromPickle to True in stats.ipynb and generate.ipynb
 
 2. `Run stats.ipynb`
 
