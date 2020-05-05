@@ -6,7 +6,7 @@ Analyzing the lyrics of modern pop music and attempting to auto-generate new lyr
 
 * Webscrap _lyrics.com_ to collect lyrics on 2800 songs by 150 trending artists  
 (Takes ~1 hour)  
-* Skip step by setting loadFromPickle to True in stats.ipynb and generate.ipynb
+* Skip with `loadFromPickle = True` in stats.ipynb and generate.ipynb
 
 2. `Run stats.ipynb`
 
@@ -20,3 +20,21 @@ Analyzing the lyrics of modern pop music and attempting to auto-generate new lyr
 3. `Run generate.ipynb`
 
 * Auto-generate new lyrics using a bigram Markov model  
+
+Some of my favorite generations:  
+
+> im pretty sure that hes a slob  
+hes such a   
+permanent monday  
+
+-----  
+
+> every one can hold me better than that  
+did you think i need you here  
+ 
+-----  
+
+> forget your troubles  
+come back be here stargazing   
+ill be better  
+and we both know 
